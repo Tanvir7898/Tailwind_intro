@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion With Shoily</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .font-bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-roboto">
+    <header class=" bg-[#FFFBF0] pl-4">
+        <nav class="  pt-4 ml-16">
+            <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+              <!-- Logo and brand name -->
+              <div class="flex items-center">
+                <!-- Logo Image -->
+                <img src="icons/box.png" alt="Logo" class="h-10 mr-2">
+                <!-- Brand Name -->
+                <span class="text-2xl font-bold text-green-500 ">Fashion  </span>
+                <span class="text-2xl font-bold text-green-800"> With Shoily</span>
+              </div>
+              <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 focus:outline-none">
+                  <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                  </svg>
+                </button>
+              </div>
+        
+              <!-- Navigation Links -->
+              <div class="hidden md:flex space-x-10 text-gray-600 pr-28 ">
+                <a href="#" class="hover:text-gray-800">Home</a>
+                <a href="#" class="hover:text-gray-800">Product</a>
+                <a href="#" class="hover:text-gray-800">About us</a>
+                <a href="#" class="hover:text-gray-800">Contact us</a>
+              </div>
+            </div>
+          </nav>
+        <div class="md:flex md:items-center md:justify-around">
+            <div>
+                <h1 class="text-7xl uppercase font-bebas-neue"> <span class="text-orange-400 mb-5">Be the Penguins</span> <br>
+                   <span class="text-stone-800"> of Winter</span></h1>
+                    <p class="my-4">Step into a world of style and elegance. Whether you're looking for the latest trends, timeless classics, <br> or something uniquely you, we’ve got you covered.</p>
+                    <button class="bg-[#D7DEB5] px-8 py-4 rounded-xl my-4"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 text-black inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg> BUY NOW</button>
+            </div>
+            <div>
+                <div class="py-5">
+                    <img class=" inset-0 rounded-full border-4 border-t-0 border-l-0" src="images/shoily2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="my-12 max-w-screen-lg m-auto">
+            <h3 class="text-5xl uppercase text-[#363958] font-bebas-neue text-center">Woman Jacket</h3>
+
+            <!-- jacket card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- jacket card 1-->
+                <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <img class="p-5 rounded-3xl bg-[#D7DEB5]" src="images/jacket-1.png" alt="">
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+                        <button
+                            class="bg-[#D7DEB5] px-8 py-4 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <!-- jacket card 2-->
+                <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <img class="p-5 rounded-3xl bg-[#D7DEB5]" src="images/jacket-2.png" alt="">
+                    <h4 class="text-2xl font-bold">Yellow Coat Jacket 2</h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+                        <button
+                            class="bg-[#D7DEB5] px-8 py-4 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <!-- jacket card 3-->
+                <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <img class="p-5 rounded-3xl bg-[#D7DEB5]" src="images/jacket-3.png" alt="">
+                    <h4 class="text-2xl font-bold">Red Coat Jacket </h4>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+                        <button
+                            class="bg-[#D7DEB5] px-8 py-4 rounded-xl ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 text-white inline">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+
+                            BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
